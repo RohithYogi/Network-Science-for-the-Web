@@ -1,0 +1,58 @@
+Contiguous USA network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the contiguous-usa network:
+
+These are the 48 contiguous states and the District of Columbia of the United States of America (the USA).  They include all states except the states of Alaska and Hawaii, which are not connected by land with the other states, and include the District of Columbia (DC).  An edge denotes that two states share a border.  The US states in the configuration given by this dataset exist since February 14, 1912, when Arizona was admitted as the 48th state, and is current as of 2014.  The states of Alaska and Hawaii were admitted as the 49th and 50th states in 1959, but are not contiguous with the other states, and are not reflected in this dataset. 
+
+
+More information about the network is provided here: 
+http://konect.uni-koblenz.de/networks/contiguous-usa
+
+Files: 
+    meta.contiguous-usa -- Metadata about the network 
+    out.contiguous-usa -- The adjacency matrix of the network in space separated values format, with one edge per line
+      The meaning of the columns in out.contiguous-usa are: 
+        First column: ID of from node 
+        Second column: ID of to node
+
+
+Complete documentation about the file format can be found in the KONECT
+handbook, in the section File Formats, available at:
+
+http://konect.uni-koblenz.de/publications
+
+All files are licensed under a Creative Commons Attribution-ShareAlike 2.0 Germany License.
+For more information concerning license visit http://konect.uni-koblenz.de/license.
+
+
+
+Use the following References for citation:
+
+@MISC{konect:2016:contiguous-usa,
+    title = {Contiguous USA network dataset -- {KONECT}},
+    month = sep,
+    year = {2016},
+    url = {http://konect.uni-koblenz.de/networks/contiguous-usa}
+}
+
+@book{konect:sgb,
+	title = {The Art of Computer Programming, Volume 4, Fascicle 0:
+                  Introduction to Combinatorial and Boolean Functions},  
+	author = {Donald E. Knuth},
+	publisher = {Addison-Wesley},
+	year = {2008},
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.pdf}, 
+	url_presentation = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.presentation.pdf},
+}
+
+
